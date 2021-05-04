@@ -1,0 +1,14 @@
+flask
+requests
+matplotlib
+numpy
+passlib[bcrypt]
+python-dotenv
+torch
+torchvision
+transformers
+SpeechRecognition
+gtts
+pyaudio
+playsound
+AppKit

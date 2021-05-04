@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #0006ff, #a801ff);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+  }
+  
+  .col-auto {
+    align-items: center;
+  }
+
+
+  .loader {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    position: absolute;
+    top:30%;
+  }
+
+  .btn{
+    top:60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -0%);
+    position: relative;
+    align-items: center;
+    background: #2195f300;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+
+  .loader .stroke {
+    display: block;
+    position: relative;
+    background: #f1f1f1;
+    height: 100%;
+    width: 10px;
+    border-radius: 50px;
+    margin: 0 5px;
+    animation: animate 1.2s linear infinite;
+  }
+  @keyframes animate {
+    50% {
+      height: 20%;
+    }
+    100% {
+      height: 100%;
+    }
+  }
+  .stroke:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .stroke:nth-child(2) {
+    animation-delay: 0.3s;
+  }
+  .stroke:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  .stroke:nth-child(4) {
+    animation-delay: 0.9s;
+  }
+  .stroke:nth-child(5) {
+    animation-delay: 0.6s;
+  }
+  .stroke:nth-child(6) {
+    animation-delay: 0.3s;
+  }
+  .stroke:nth-child(7) {
+    animation-delay: 0s;
+  }
+  /*This is my youtube channel link*/
+  #yt {
+    position: absolute;
+    bottom: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    right: 20px;
+    color: #fff;
+  }
+  #yt:hover {
+    color: red;
+  }
+  

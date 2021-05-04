@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="loader">
+        <span class="stroke"></span>
+        <span class="stroke"></span>
+        <span class="stroke"></span>
+        <span class="stroke"></span>
+        <span class="stroke"></span>
+        <span class="stroke"></span>
+        <span class="stroke"></span>
+
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                
+                <h2>Please press activate to speak with Alfons</h2>
+                
+                <form action="/get_answer" method="POST">
+                    <input class="btn" type="submit" name="mode" value="activate" />
+                </form>
+                <form action="/get_answer" method="POST">
+                    <input class="btn" type="submit" name="mode" value="deactivate" />
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
